@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Santio";
+    src: url("../font/SANTIO/TTF/Santio\ regular.ttf");
+}
+
+@font-face {
+    font-family: "MrDafoe";
+    src: url("../font/MrDafoe/MrDafoe-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../font/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+/* 
+Font: Santio bold, Roboto, Tangerine
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax{
+    min-height: 100vh;
+    background-image: url("../img/cleo-topper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax > div {
+    display: flex;
+}
+
+sub {
+    padding: 3vw;
+}
+
+h1 {
+    font-family: "Santio";
+    color: white;
+    font-size: 12vh;
+    margin: 7% 0 0 0;
+    padding-left: 10%;
+    width: 38%;
+}
+
+.parallax div p{
+    font-family: "MrDafoe";
+    color: #E7BC0E;
+    font-size: 5vh;
+    padding: 15vh 0 0 10vw;
+}
+
+.parallax article p{
+    font-family: "Santio";
+    color: #6bc1a3;
+}
+
+sub{
+    font-family: "Arial";
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.4%;
+    font-size: 4vh;
+    font-family: Roboto;
+    color: #efefef;
+}
+
+nav ul li:nth-of-type(1) {
+    padding: 0 1% 0 0;
+}
+
+nav ul li:nth-of-type(2) {
+    border-bottom: 2px solid yellow;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+nav ul {
+    text-align: right;
+    padding: 1% 5% 0 0;
+}
+
+#logo {
+    width: 2vw;
+}
+
+main section .domesticworkers,
+main section .minwage,
+main section .healthinsurance {
+    padding-left: 12%;
+}
+
+.domesticworkers > img,
+.minwage > img,
+.healthinsurance > img {
+    width: 18%;
+    padding: 5% 0;
+}
+
+.domesticworkers > p,
+.minwage > p,
+.healthinsurance > p {
+    font-size: 7vh;
+}
+
+article > .fz {
+    font-size: 16vh;
+}
+
+section > .fz {
+    font-size: 3.6vh;
+    font-family: "Inter";
+    width: 12%;
+}
+
+#Kinder {
+    width: 100%;
+}
+
+.span {
+    color: #fff;
+    background-color: #29272a;
+}
+
+article:nth-of-type(2) p:nth-of-type(1),
+article:nth-of-type(2) p:nth-of-type(2) {
+    color: #e7bc0e;
+}
+
+article:nth-of-type(3) p:nth-of-type(1),
+article:nth-of-type(3) p:nth-of-type(2) {
+    color: #cb91b6;
+}
+
+article:nth-of-type(4) p:nth-of-type(1),
+article:nth-of-type(4) p:nth-of-type(2) {
+    color: #6bc1a3;
+}
+
+main section:last-of-type {
+    color: #fff;
+    background-color: #000;
+    padding: 5% 0 0 5%;
+}
+
+main section:last-of-type button {
+    color: white;
+    background: transparent;
+    padding: 15px 25px;
+    margin: 25px 0 0 0;
+    border-color: #fff;
+    font-family: "Roboto";
+    font-size: 2.5vh;
+    font-weight: 100;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 1.5vh;
+    padding: 10vh 0 1vh 0;
+}
+
+footer a {
+    color: #6bc1a3;
+}
+
+.text-wrapper p {
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 3vh;
+}
+
+.text-wrapper {
+    width: 55vw;
+    padding: 15vh;
+}
+
+main > section article:nth-of-type(1) p {
+    color: #6bc1a3;
+}
+
+main > section article:nth-of-type(5) p {
+    color: #7eb8e1;
+}
