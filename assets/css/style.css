@@ -108,7 +108,7 @@ main section .healthinsurance {
 .domesticworkers > img,
 .minwage > img,
 .healthinsurance > img {
-    width: 18%;
+    width: 60%;
     padding: 5% 0;
 }
 
@@ -116,6 +116,7 @@ main section .healthinsurance {
 .minwage > p,
 .healthinsurance > p {
     font-size: 7vh;
+    margin-left: 22vw;
 }
 
 article > .fz {
@@ -169,6 +170,11 @@ main section:last-of-type button {
     font-weight: 100;
 }
 
+main section:last-of-type button:hover{
+    background-color: black;
+    color: white;
+}
+
 footer {
     text-align: center;
     background-color: #000;
@@ -193,10 +199,36 @@ footer a {
     padding: 15vh;
 }
 
+.text{
+    padding: 0 15vh 0 20vh;
+}
+
 main > section article:nth-of-type(1) p {
     color: #6bc1a3;
 }
 
 main > section article:nth-of-type(5) p {
     color: #7eb8e1;
+}
+
+.picto{
+    width: 35vw;
+    height: 35vh;
+}
+
+.text-wrapper2{
+
+    width: 55vw;
+    padding: 15vh;
+    
+}
+
+.text2{
+    width: 20vw;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 3vh
+    padding: 0 15vh 0 20vh;
+    margin-left: 26vw;
+    padding-bottom: 30vh;
 }
